@@ -1,0 +1,103 @@
+body{	
+			width: 100vw;
+	    	height: 100vh;
+			font-family: sans-serif;
+			padding: 0;
+			margin: 0 auto;
+			overflow: hidden;
+			background-color: #8cb7e2;
+
+
+		}
+		#header{
+			width:100%;
+			background: grey;
+			padding: 5px;
+			text-align: center;
+			height: 50px;
+		}
+		.text{
+			font-family: sans-serif;
+			text-align: center;
+
+		}
+		#logo{
+			float: left;
+			font-weight: bold;
+			font-size: 40px;
+			padding: 3px 5px;
+			color: orange;
+			  -webkit-text-fill-color: orange; 
+			  -webkit-text-stroke-width: 2px;
+			  -webkit-text-stroke-color: #000;
+		}
+		.button{
+			font-weight: 600;
+			padding: 10px !important;
+			margin-right: 5px;
+			border-radius: 10px;
+			background-color: #fff;
+			color: #333;
+			text-shadow: 0.8px 0.4px 0.5px white;
+		}
+		.button:hover{
+			color: white;
+			font-weight: 400;
+			border: 2px solid orange;
+			background-color: grey;
+			transition: all 300ms ease-in;
+		}
+		#buttonContainer{
+			width: 450px;
+			margin:0 auto;
+			margin-top: 8px;
+
+		}
+
+		
+		.toggleButton{
+			float: left;
+			border: 1px solid grey;
+			padding: 6px;
+			border-right: none;
+			font-size: 90%;
+
+		}
+
+
+		
+		
+		.active{
+			background-color: orange;
+			
+		}
+		textarea{
+			resize: none;
+			border-top: none;
+			border-color: #fff;
+			color: #111;
+			font-size: 16px;
+			padding: 10px 4px;
+		
+
+		}
+
+		.panel{
+			float: left;
+			width: 50%;
+			box-sizing: border-box;
+			background-color: #1b1b1c;
+			height: 100%;
+			color: #fff;
+		}
+		
+		iframe{
+			border:none;
+			
+		}
+		#outputPanel{
+			background-color: #fff;
+		}
+		.hidden{
+			display: none;
+		}
